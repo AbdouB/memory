@@ -1,0 +1,8 @@
+# Binary
+memory
+
+# IDE
+.idea/
+
+# Local config
+.claude/
