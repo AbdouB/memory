@@ -14,21 +14,21 @@ Memory solves this by providing a simple CLI that tracks findings, uncertainties
 
 ## Installation
 
+### Using Go Install
+
+```bash
+go install github.com/AbdouB/memory@latest
+```
+
 ### From Source
 
 ```bash
 git clone https://github.com/AbdouB/memory
 cd memory
-go build -o memory ./cmd/memory
+make build
 
-# Or install to PATH
-go install ./cmd/memory
-```
-
-### Using Go Install
-
-```bash
-go install github.com/AbdouB/memory/cmd/memory@latest
+# Or install to GOPATH/bin
+make install
 ```
 
 ## Quick Start
